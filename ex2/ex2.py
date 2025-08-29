@@ -8,5 +8,6 @@ for i in range(N):
     if i % 5 == 0:
         print("cinco")
         contador += 1
-    if contador > 10:
+    if contador == 10:
         print("cansei")
+        contador = 0
